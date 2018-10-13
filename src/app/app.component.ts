@@ -15,6 +15,9 @@ export class AppComponent implements OnInit {
       new DashboardCardModel({ value: 100}),
       new DashboardCardModel({ value: 100}),
       new DashboardCardModel({ value: 100}),
+      new DashboardCardModel({ value: 100}),
+      new DashboardCardModel({ value: 100}),
+      new DashboardCardModel({ value: 100}),
     ];
   }
 }

@@ -1,6 +1,8 @@
 <div class="container">
-  <dashboard-card *ngFor="let card of cards"
-    [card]="card"
-  ></dashboard-card>
+  <nav-menu></nav-menu>
+  <div class="main-body">
+    <dashboard-card *ngFor="let card of cards"
+                    [card]="card"
+    ></dashboard-card>
+  </div>
 </div>
-

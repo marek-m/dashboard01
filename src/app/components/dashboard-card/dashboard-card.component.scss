@@ -1,7 +1,8 @@
 .dashboard-card {
   background: #1B2A47;
   border-radius: 0.2rem;
-  margin: 1em;
+  margin: 1rem;
+
   .dashboard-card-content {
     @import 'scrollbar';
     display: flex;

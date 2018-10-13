@@ -1,0 +1,48 @@
+.nav-menu {
+  display: inline-block;
+  margin-top: 1rem;
+  height: 100%;
+  width: 60px;
+  transition: width 0.2s;
+  color: white;
+  font-size: 1.5em;
+  border-right: 1px solid #27395D;
+  ul {
+    padding: 0.5em;
+  }
+  li {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 1em;
+    min-width: 200px;
+  }
+}
+.nav-menu li span {
+  margin: 0;
+  margin-left: 1em;
+}
+.nav-menu .content span {
+  visibility: hidden;
+  overflow: hidden;
+  opacity: 1;
+  transition: opacity 0.2s;
+  width: 100px;
+}
+.nav-menu:hover {
+  width: 200px;
+  transition: width 0.2s;
+}
+.nav-menu:hover {
+  .content {
+    li:not(:first-child) {
+      color: red;
+      transition: color 0.2s;
+      span {
+        color: white;
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 0.2s;
+      }
+    }
+  }
+}

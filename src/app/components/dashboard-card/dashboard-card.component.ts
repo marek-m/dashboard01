@@ -10,6 +10,7 @@ import { faCoffee, faEllipsisV} from '@fortawesome/free-solid-svg-icons';
 export class DashboardCardComponent implements OnInit {
   @Input() public card: DashboardCardModel;
   public faEllipsisV = faEllipsisV;
+  public faCoffee = faCoffee;
   constructor() { }
 
   ngOnInit() {
