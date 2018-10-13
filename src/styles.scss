@@ -1,1 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~roboto-fontface/css/roboto/roboto-fontface.css';
+:root {
+  background: #152137;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 1em;
+}
