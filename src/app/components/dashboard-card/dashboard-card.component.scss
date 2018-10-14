@@ -1,9 +1,16 @@
+
 .dashboard-card {
   background: #1B2A47;
   border-radius: 0.2rem;
   margin: 1rem;
   padding: 0.3em;
-
+  transition: all 0.5s;
+  width: 20rem;
+  overflow: hidden;
+  &.inserted {
+      width: 10px;
+      height: 10px;
+  }
   .dashboard-card-content {
     @import 'scrollbar';
     display: flex;

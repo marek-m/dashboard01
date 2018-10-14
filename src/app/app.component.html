@@ -1,8 +1,13 @@
 <div class="container">
   <nav-menu></nav-menu>
   <div class="main-body">
-    <dashboard-card *ngFor="let card of cards"
-                    [card]="card"
-    ></dashboard-card>
+    <div class="action-bar">
+      <button (click)="onAdd()">ADD</button>
+    </div>
+    <div class="dashboard">
+      <dashboard-card *ngFor="let card of cards"
+                      [card]="card"
+      ></dashboard-card>
+    </div>
   </div>
 </div>

@@ -20,4 +20,8 @@ export class AppComponent implements OnInit {
       new DashboardCardModel({ value: 100}),
     ];
   }
+
+  onAdd() {
+    this.cards = [new DashboardCardModel({}), ...this.cards];
+  }
 }
