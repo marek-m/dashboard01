@@ -1,4 +1,5 @@
 @import '~roboto-fontface/css/roboto/roboto-fontface.css';
+@import 'assets/styles/theme-dark';
 body, html {
   background: #152137;
   font-family: 'Roboto';
@@ -8,4 +9,5 @@ body, html {
   height: 100%;
   margin: 0;
   padding: 0;
+  color: $font-ui-00;
 }

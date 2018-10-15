@@ -1,3 +1,6 @@
+@import '../../../assets/styles/theme-dark.scss';
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Marmelad|Megrim');
+
 .nav-menu {
   display: inline-block;
   margin-top: 1rem;
@@ -15,15 +18,26 @@
     padding: 0;
     margin-bottom: 1em;
     min-width: 200px;
+    &:first-child {
+      font-family: 'Fredericka the Great';
+      font-size: 1.5em;
+      span {
+        opacity: 0;
+        margin:0;
+        font-size: 0.8em;
+      }
+    }
+    span {
+      opacity: 0;
+    }
   }
 }
 .nav-menu li span {
   margin: 0 0 0 1em;
 }
 .nav-menu .content span {
-  visibility: hidden;
   overflow: hidden;
-  opacity: 1;
+  opacity: 0;
   transition: opacity 0.2s;
   width: 100px;
 }
@@ -38,9 +52,17 @@
       transition: color 0.2s;
       span {
         color: white;
-        visibility: visible;
         opacity: 1;
         transition: opacity 0.2s;
+      }
+    }
+    li {
+      &:first-child {
+        font-family: 'Fredericka the Great';
+        span {
+          opacity: 1;
+          transition: opacity 0.2s;
+        }
       }
     }
   }

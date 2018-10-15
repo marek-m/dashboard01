@@ -1,6 +1,7 @@
+@import '../../../assets/styles/theme-dark';
 
 .dashboard-card {
-  background: #1B2A47;
+  background: $background-ui-01;
   border-radius: 0.2rem;
   margin: 1rem;
   padding: 0.3em;
@@ -25,7 +26,7 @@
       align-items: baseline;
       font-weight: 600;
       font-family: 'Roboto-Thin';
-      color: white;
+      color: $font-ui-00;
       font-size: 1.2em;
       margin-bottom: 2rem;
       padding-left: 0.5em;

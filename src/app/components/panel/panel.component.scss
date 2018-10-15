@@ -1,10 +1,12 @@
+@import '../../../assets/styles/theme-dark';
+
 .panel {
   width: 50%;
   box-sizing: border-box;
   float: left;
   padding: 0.3em;
   .panel-content {
-    background-color: #27395D;
+    background-color: $background-ui-02;
     border-radius: 0.2rem;
     padding: 0.5em;
   }
