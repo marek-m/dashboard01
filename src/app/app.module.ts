@@ -7,7 +7,6 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import {PanelComponent} from './components/panel/panel.component';
 import { NavMenuComponent } from './components/nav-menu/nav-menu.component';
 import { ActionBarComponent } from './components/action-bar/action-bar.component';
-import { PanelNotesComponent } from './components/panel-notes/panel-notes.component';
 import { NotesComponent } from './components/notes/notes.component';
 
 @NgModule({
