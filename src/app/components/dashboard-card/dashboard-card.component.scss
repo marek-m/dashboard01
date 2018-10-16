@@ -6,11 +6,12 @@
   margin: 1rem;
   padding: 0.3em;
   transition: all 0.5s;
-  width: 20rem;
+  max-width: 20rem;
   overflow: hidden;
+  max-height: 30rem;
   &.inserted {
-      width: 10px;
-      height: 10px;
+      max-width: 10px;
+      max-height: 10px;
   }
   .dashboard-card-content {
     @import 'scrollbar';
